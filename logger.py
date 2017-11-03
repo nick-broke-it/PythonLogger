@@ -17,3 +17,5 @@ class Logger(object):
             raise NameError(u"\u001b[31m No Valid Color Specified \u001b[0m")
 
 Logger = Logger()
+
+#Logger.log("message here", "color is optional")
